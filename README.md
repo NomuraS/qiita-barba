@@ -1,0 +1,1 @@
+Qiitaの記事「Barba.jsによる画面遷移を使う」(https://qiita.com/NomuraS/items/29b72c9b12993154f91c) で用いられるサンプルコードになります。

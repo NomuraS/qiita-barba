@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Barba.jsテスト</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    header - unchange
+    <ul>
+        <li>
+            <a href="./page2.html">link to page2</a>
+        </li>
+        <li>
+            <a href="./page1.html">link to page1</a>
+        </li>
+    </ul>
+    <main id="barba-wrapper">
+        <div class="barba-container">
+            ここを変更する。
+        </div>
+    </main>
+    footer - unchange
+</body>
+<script>
+    Barba.Pjax.init();
+</script>
+
+</html>
